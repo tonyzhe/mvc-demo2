@@ -1,0 +1,21 @@
+#app2 {
+  border: 1px solid blue;
+  width: 50vw;
+  height: 50vh;
+}
+#app2 .tabBar {
+  display: flex;
+}
+#app2 .tabBar li {
+  border: 1px solid black;
+  width: 50%;
+}
+#app2 .tabBar .clickChange {
+  background-color: yellowgreen;
+}
+#app2 .tabContent li {
+  display: none;
+}
+#app2 .tabContent .active {
+  display: block;
+}
